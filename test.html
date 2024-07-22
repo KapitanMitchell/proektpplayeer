@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/1512545098470461446/Au88YC9T_400x400.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Тест на любов до музики</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <h2>1. Як часто ви слухаєте музику?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="1"> Кожен день</label>
+                    <label><input type="radio" name="q1" value="0"> Рідко</label>
+                    <label><input type="radio" name="q1" value="0"> Ніколи</label>
+                </div>
+            </div>
+            <div class="question">
+                <h2>2. Ви знаєте слова більшості ваших улюблених пісень?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="1"> Так</label>
+                    <label><input type="radio" name="q2" value="0"> Ні</label>
+                </div>
+            </div>
+            <div class="question">
+                <h2>3. Ви часто ходите на концерти?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="1"> Так</label>
+                    <label><input type="radio" name="q3" value="0"> Ні</label>
+                </div>
+            </div>
+            <div class="question">
+                <h2>4. Вам подобається досліджувати нову музику і жанри?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="1"> Так</label>
+                    <label><input type="radio" name="q4" value="0"> Ні</label>
+                </div>
+            </div>
+            <div class="question">
+                <h2>5. У вас є колекція альбомів або плейлистів?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="1"> Так</label>
+                    <label><input type="radio" name="q5" value="0"> Ні</label>
+                </div>
+            </div>
+            <button type="button" onclick="calculateResult()">Показати результат</button>
+            <div class="result" id="result"></div>
+            <a class="return" href="./home.html">Повернути на головну</a>
+        </form>
+    </div>
+
+
+    <script src="./test.js"></script>
+</body>
+</html>
